@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8rem;
+}
+a {
+    text-decoration: none;
+}
+
+p {
+margin: 0.75rem 0;
+}
+/* utility class-n style */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+
+.text-center {
+    text-align: center;
+}
+.text-primary {
+    color: rgb(115, 184, 6);
+}
+
+.bg-light{
+    background: rgb(250, 247, 247);
+    color: rgb(7, 0, 0);
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.m-heading{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: rgb(115, 184, 6);
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.btn:hover {
+    background: rgb(67, 124, 1);
+}
+.btn-dark{
+    background: #333;
+    color: #fff;
+}
+
+.bg-primary {
+    background:  rgb(115, 184, 6);
+}
+.py-1 { padding: 1.5rem 0;}
+.py-2 { padding: 2rem 0;}
+.py-3 { padding: 3rem 0;}
+
+.p-1 { padding: 1.5rem ;}
+.p-2 { padding: 2rem ;}
+.p-3 { padding: 3rem ;}
+
+.list {
+    margin: 0.5rem;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem ;
+    border-bottom: #444 dotted 1px ;
+}
+
+/* үндсэн цэс */
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: rgb(43, 39, 39);
+    color: #fff;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar ul li a{
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+#navbar ul li a:hover {
+    background: rgb(115, 184, 6);
+    border-radius: 5px;
+}
+/* showcase */
+#showcase {
+    background: #333 url('../images/iata-que-es-para-que-sirve-1080x675.jpg') no-repeat center center/cover; 
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* overlay-зураг бүдэгрүүлэх */
+    
+    top: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(8, 0, 0, 0.5);
+}
+
+/* section бид юу хийдэг юэ */
+.items {
+    display: flex;
+    padding: 1rem;
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+.items .item i {
+    background: rgb(115, 184, 6);
+    padding: 1.5rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    
+}
+
+/* bid hen be */
+#who{
+  display: flex;
+}
+
+#who div{
+    flex: 1;
+
+}
+
+#who .who-img{
+    background: url('../images/airfreight-From-China-to-NewZealand.jpg') no-repeat center center/cover;
+}
+
+/* tunshuud */
+#client .items{
+    display: flex;
+}
+
+/* section contact */
+#contact{
+    display: flex;
+}
+
+#contact .map, #contact .contact-form {
+    flex: 0.5;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#cotact .contact-form label {
+    display: block;
+}
+
+
+#contact .contact-form input, 
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#clients{
+    background: rgba(18, 92, 252, 0.801);
+}
+
+#clients .items img {
+    width: 60%;
+}

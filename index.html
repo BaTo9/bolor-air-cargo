@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8a206a71da.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-with: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (mx-with: 1200px)" href="css/widescreen.css">
+   
+    <title>bolor air cargo | БОЛОР КАРГО</title>
+    
+</head>
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <h1 class="logo">
+          <!-- <span class="text-primary">
+               <i class="fas fa-plane-departure"></i>  BOLOR
+          </span>AIR CARGO -->
+          <a href="/images/my logo.jpg"><img src="/images/my logo.jpg" alt="" width="60px"></a>
+        </h1>
+        <ul>
+            <li><a href="index.html">НҮҮР</a></li>
+            <li><a href="#what">ЗАХИАЛГА</a></li>
+            <li><a href="#who">ТАРИФ</a></li>
+            <li><a href="#contact">ХОЛБОГДОХ</a></li>
+        </ul>
+    </div>
+    <!-- header, showcase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">ХАМГИЙН ШУУРХАЙ <br> АГААРЫН ТЭЭВЭР</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Laborum odit at facilis quibusdam accusantium aliquam, sunt officia autem suscipit beatae exercitationem <br> voluptatem error repellat quae nemo qui nesciunt facere rerum.</p>
+            <a href="index.html.." class="btn">ДЭЛГЭРЭНГҮЙ</a>
+        </div>
+    </header>
+    <!-- section -->
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">ЗАХИАЛГИЙН</span> ТАЛААРХ ДЭЛГЭРЭНГҮЙ</h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i> 
+                    <h3>ХӨРӨНГӨ ОРУУЛАЛТ</h3>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequuntur enim in reprehenderit magni possimus!</P>
+                </div>
+                <div class="item">
+                    <i class="fas fa-truck fa-2x"></i> 
+                     <h3>САН ХҮҮГИЙН ЗӨВӨЛГӨӨ</h3>
+                     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequuntur enim in reprehenderit magni possimus!</P>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i> 
+                    <h3>СУРГАЛТ</h3>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequuntur enim in reprehenderit magni possimus!</P>
+               </div>
+            </div>
+         </div>
+    </section>
+    <!-- БИД ХЭН БЭ -->
+    <section id="who">
+         <div class="who-img"></div>
+         <div class="who-text bg-dark p-2">
+             <h2 class="m-heading"><span class="text-primary">ҮНИЙН</span> ЗАДАРГА</h2>
+             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. In facilis recusandae ex enim perspiciatis, est deleniti illo maxime earum consequuntur?</P>
+             <h3>УДИРДАЛАГЫН БАГ</h3>
+             <ul class="list">
+                 <li>ДЭЛГЭР</li>
+                 <li>БАТ</li>
+                 <li>ДОРЖ</li>
+                 <li>ЦЭЦЭГ</li>
+             </ul>
+         </div>
+    </section>
+    <!-- tunshuud -->
+    <section id="clients" class="py-1">
+         <div class="container">
+             <h2 class="m-heading text-center">
+                 <span class="text-primary">МАНАЙ</span> ТҮНШҮҮД
+             </h2>
+             <div class="items py-1">
+                 <div><img src="/images/logo01.png" alt="client"></div>
+                 <div><img src="/images/logo03.png" alt="client"></div>
+                 <div><img src="/images/logo08.png" alt="client"></div>
+                 <div><img src="/images/logo07.png" alt="client"></div>
+             </div>
+         </div>
+    </section>
+    <!-- contact -->
+    <section id="contact">
+         <div class="contact-form bg-primary p-2">
+             <h2 class="m-heading">ХОЛБОО БАРИХ</h2>
+             <p>ДООРОХ ТАЛБАРУУДЫГ БӨГЛӨН БИДЭНТЭЙ ХОЛБОГДНО УУ</p>
+             <form >
+                 <div class="form-group">
+                     <label for="name">НЭР</label>
+                     <input type="text" name="name" id="name" placeholder="НЭРЭЭ ОРУУЛНА УУ!">
+                 </div>
+                 <div class="form-group">
+                     <label for="name">Э-МАЙЛ</label>
+                     <input type="email" name="email" id="email" placeholder="Э-МАЙЛЭЭ ОРУУЛНА УУ!">
+                 </div>
+                 <div class="form-group">
+                     <label for="name">УТАСНЫ ДУГААР</label>
+                     <input type="text" name="phone" id="phone" placeholder="УТАСНЫ ДУГААР ОРУУЛНА УУ!">
+                 </div>
+                 <div class="form-group">
+                     <label for="name">МЭССЭЖ</label>
+                     <textarea name="name" id="name" placeholder="ЗАХИДАЛ БИЧЭХ!"></textarea>
+                 </div>
+                 <input type="submit" value="ИЛГЭЭХ" class="btn btn-dark">
+             </form>
+         </div>
+         <div class="map"></div>
+    </section>
+    <script src="/js/main.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWDu7U-0fVYEfAIgaIxnT4PjKm1ryPOAA&callback=initMap">
+</script>
+<!-- foter -->
+<footer id="main-footer" class="bg-dark text-center py-1">
+     <div class="container">
+         <p>&copy 2022, ПЛАТИНУМ ФИНАНС, БҮХ ЭРХ ХУУЛИАР ХАМГААЛАГДСАН</p>
+     </div>
+</footer>
+</body>
+</html>
+<!-- AIzaSyAWDu7U-0fVYEfAIgaIxnT4PjKm1ryPOAA -->
