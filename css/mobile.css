@@ -20,7 +20,7 @@ margin-bottom: 0;
         flex-direction: column;
         align-items: center;
     }
-}
+
 
 #navbar .logo {
     margin-bottom: 0.5rem;
@@ -30,3 +30,17 @@ margin-bottom: 0;
 #navbar ul {
     padding: 0.5rem;
 }
+#showcase .showcase-content {
+    top: 113px;
+}
+
+#wno{
+    display: block;
+}
+
+#who .who-img{
+    display: none;
+}
+    
+}
+
