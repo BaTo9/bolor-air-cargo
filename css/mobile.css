@@ -5,7 +5,7 @@
 /* icon-уудыг зүүн талруу зэрэгцүүлнэ */
 #what .items .item {
     display: flex;
-    text-align: left;
+/*     text-align: left; */
 }
 
 #what .items .item i {
@@ -15,7 +15,7 @@ margin-bottom: 0;
 
 }
 
-@media (max-width: 200px) {
+@media (max-width: 300px) {
     #navbar{
         flex-direction: column;
         align-items: center;
