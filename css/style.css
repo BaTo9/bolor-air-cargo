@@ -212,3 +212,12 @@ margin: 0.75rem 0;
 #clients .items img {
     width: 60%;
 }
+
+#main-footer .container .social{
+    justify-self: center;
+}
+
+#main-footer .social i{
+    color: #fff;
+    margin-right: 0.8rem;
+}
